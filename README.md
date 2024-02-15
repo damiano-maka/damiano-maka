@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=damiano-maka&label=Profile%20views&color=0e75b6&style=flat" alt="damiano-maka" /> </p>
 
-- 🔭 I’m currently working on **MovieStreamingApp with authentication con node express e moongoose**
+- 🔭 I’m currently working on **NEWS APP WITH REAL-TIME DATA**
 
 - 👨‍💻 All of my projects are available at [https://github.com/damiano-maka?tab=repositories](https://github.com/damiano-maka?tab=repositories)
 
