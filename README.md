@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Damiano Maka</h1>
 <h3 align="center">A passionate frontend developer from Italy</h3>
 
+<p align="center"> <img src="https://i.ibb.co/f0j7XQ3/68747470733a2f2f692e696d6775722e636f6d2f7531724a6350512e676966.gif" alt="damiano-maka" /> </p>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=damiano-maka&label=Profile%20views&color=0e75b6&style=flat" alt="damiano-maka" /> </p>
 
 - 🔭 I’m currently working on **NEWS APP WITH REAL-TIME DATA**
