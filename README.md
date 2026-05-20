@@ -1,57 +1,54 @@
 # Hi there, I'm Damiano Maka 👋 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Frontend+Engineer;Angular+Specialist;AI+Integrator+%26+Prompt+Architect" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/damiano-maka?label=Follow&style=social" alt="GitHub followers">
-  <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Frontend+Engineer;Angular+Architect+(Nx%2FMicrofrontends);AI+Integrator+%26+Prompt+Architect" alt="Typing SVG" />
 </p>
 
 ---
 
 ## 🚀 About Me
 
-I am a **Frontend Engineer** specializing in the Angular ecosystem. I bridge the gap between Figma mockups and production-ready applications, turning complex business logic into intuitive, high-performance user interfaces. 
+I am a **Frontend Engineer** specializing in enterprise-grade Angular architectures. I currently build robust, scalable applications in the highly complex **genetics and healthcare domain** (Current workplace [GenomeUp](https://genomeup.com)). 
 
-> **The AI-Accelerated Advantage:** I leverage advanced prompt engineering and LLM orchestration (Claude, Gemini, OpenAI) to build features faster, optimize complex code, and integrate smart capabilities directly into applications. I also run local AI models to test and develop securely.
+I have hands-on experience designing and maintaining **microfrontend architectures using Nx**, managing intricate workflows that process petabyte-scale genetic data flows. My work spans entire interconnected product suites—from intuitive clinical interfaces for doctors to automated lab result processing, advanced PDF generation, and sample tracking.
+
+> **The AI-Accelerated Advantage:** I treat AI as a core architectural component. Not only do I use LLMs (Claude, Gemini, OpenAI) and local deployments (Ollama/Locally llms) to write better code faster, but I also build AI into the products themselves—recently developing a complex tracking system application powered directly by **Claude**.
 
 ---
 
 ## 🛠️ Tech Stack & Ecosystem
 
-### 💻 Frontend & UI Development
-I am a fast learner who can pick up any library, but my daily drivers include:
+### 💻 Frontend Architecture & UI
 ![](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![](https://img.shields.io/badge/Nx-143055?style=for-the-badge&logo=nx&logoColor=white)
 ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![](https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
+* **Architecture:** Nx Workspaces, Microfrontends, scalable monorepo management.
 * **Libraries & Tools:** AG Grid, Formly, Compodoc, Bootstrap, Angular Material.
-* **Specialized Integrations:** Advanced PDF generation and templating using **Carbone.io**.
+* **Specialized Integrations:** High-complexity PDF generation and templating for medical reports using **Carbone.io**.
 
 ### 🎨 Product Workflow & Version Control
 ![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-* **Process:** Daily analysis of Figma mockups, Agile workflows via Jira & Confluence.
+* **Process:** Translating complex Figma mockups into enterprise UI, Agile/Jira workflows.
 * **Code Management:** Strict Git workflows, GitHub, and Bitbucket.
 
 ### ⚙️ Backend Knowledge & Hosting
-I am a frontend specialist with a solid "T-shaped" understanding of the backend, allowing me to communicate seamlessly with server-side teams.
+I am a frontend specialist with a strong understanding of how massive backend systems operate, allowing me to build UIs that efficiently handle petabytes of data without bottlenecking.
 ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-* **Architecture:** Firm understanding of REST APIs, Serverless functions, and data flow.
-* **Enterprise Cloud:** Conceptual and practical familiarity with AWS services and Python environments used by backend teams.
-* **Deployment:** Vercel, Netlify, and Firebase.
+* **Architecture:** REST APIs, Serverless functions, and optimized data flow.
+* **Enterprise Cloud:** Conceptual familiarity with AWS services and Python environments used by backend teams for genomic sequencing data.
 
 ### 🤖 AI & Prompt Engineering
+* **Product Integration:** Building applications driven by LLMs (e.g., Claude-powered tracking systems).
 * **Model Orchestration:** Advanced context engineering across **Claude 3.5**, **GPT-4o**, and **Gemini 1.5 Pro**.
-* **Local Deployments:** Running models locally using Ollama and LM Studio.
-* **Under the Hood:** Solid grasp of how LLMs operate (APIs, tokenization, contexts).
+* **Local Deployments:** Securely running local models using Ollama and LM Studio for R&D.
 
 ---
 
@@ -66,9 +63,9 @@ I am a frontend specialist with a solid "T-shaped" understanding of the backend,
 
 ## 💡 Engineering Philosophy
 
-* **From Canvas to Code:** I don't just write code; I study the UX intentions in Figma and translate them into modular, maintainable Angular components.
-* **Library Agnostic Adaptability:** While I have my core stack, I view tools as a means to an end. Hand me a new library or framework, and I will integrate it efficiently.
-* **Holistic View:** By understanding how AWS, Node.js, and databases operate, I write frontend code that consumes APIs efficiently and respects backend constraints.
+* **Enterprise-Scale Rendering:** Handling petabytes of data on the backend means the frontend must be hyper-optimized. I focus on efficient state management, lazy loading, and robust grid architectures (AG Grid) to keep the UI lightning-fast.
+* **Domain-Driven UI:** I don't just build components; I understand the genetics workflow. From the doctor's screen to the lab technician's portal, the UX must be precise, secure, and intuitive.
+* **Microfrontend Modularity:** Using Nx, I ensure that massive suite applications remain scalable, maintainable, and decoupled, allowing multiple teams to iterate rapidly.
 
 ---
 
