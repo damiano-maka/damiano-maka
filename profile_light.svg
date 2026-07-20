@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
+  <defs>
+    <!-- Dynamic Light Mode Gradients -->
+    <linearGradient id="asciiGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#2563EB;#06B6D4;#0284C7" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#0284C7;#2563EB" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlowLight" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </radialGradient>
+
+    <linearGradient id="scanGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#0284C7" stop-opacity="0.03"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="55%" stop-color="#0284C7" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+
+    <mask id="revealMaskLight" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="620">
+      <rect x="0" y="0" width="1180" height="0" fill="#fff">
+        <animate attributeName="height" from="0" to="560" dur="2.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+      </rect>
+    </mask>
+
+    <clipPath id="lcl0"><rect x="500" y="26" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="0.70s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl1"><rect x="500" y="50" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="0.82s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl2"><rect x="500" y="72" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="0.94s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl3"><rect x="500" y="94" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.06s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl4"><rect x="500" y="116" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.18s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl5"><rect x="500" y="138" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.30s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl6"><rect x="500" y="160" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.42s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl7"><rect x="500" y="182" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.54s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl8"><rect x="500" y="204" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.66s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl9"><rect x="500" y="226" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.78s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl10"><rect x="500" y="248" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="1.90s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl11"><rect x="500" y="270" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.02s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl12"><rect x="500" y="292" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.14s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl13"><rect x="500" y="314" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.26s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl14"><rect x="500" y="336" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.38s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl15"><rect x="500" y="358" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.50s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl16"><rect x="500" y="380" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.62s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lcl17"><rect x="500" y="402" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.74s" fill="freeze"/></rect></clipPath>
+
+    <style>
+      .ascii-l  { font-family: 'Consolas', 'Courier New', monospace; font-size: 8.5px; fill: url(#asciiGradLight); letter-spacing: -0.2px; }
+      .key-l    { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #0284C7; font-weight: bold; }
+      .value-l  { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #0F172A; }
+      .cc-l     { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #94A3B8; }
+      .head-l   { font-family: 'Consolas', 'Courier New', monospace; font-size: 16px; fill: #2563EB; font-weight: bold; }
+      .accent-l { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #059669; font-weight: bold; }
+      text, tspan { white-space: pre; }
+      .term-label-l { font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
+      .scan-label-l { font-family: 'Consolas', 'Courier New', monospace; font-size: 10px; fill: #EF4444; letter-spacing: 1px; }
+      .panel-title-l { font-family: 'Consolas', 'Courier New', monospace; font-size: 11px; fill: #0284C7; letter-spacing: 2px; opacity: 0.9; }
+      .cursor-blink-l { fill: #0284C7; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1180" height="610" rx="18" fill="url(#bgGlowLight)"/>
+
+  <!-- Top macOS Window Bar -->
+  <g id="titlebar-light">
+    <rect x="3" y="3" width="1174" height="34" rx="16" fill="#F8FAFC" fill-opacity="0.9"/>
+    <circle cx="24" cy="20" r="5" fill="#EF4444"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <text x="590" y="24" text-anchor="middle" class="term-label-l">damiano@devos ~ % ./profile.sh --live</text>
+    <circle cx="1122" cy="20" r="4" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1132" y="23" class="scan-label-l">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Main Body Content -->
+  <g transform="translate(0,38)">
+    <rect x="14" y="26" width="488" height="468" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="url(#borderGradLight)" stroke-width="1"/>
+    <rect x="508" y="10" width="655" height="500" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="url(#borderGradLight)" stroke-width="1"/>
+    <text x="30" y="24" class="panel-title-l">PORTRAIT.MAP</text>
+    <text x="524" y="24" class="panel-title-l">SYSTEM.INFO</text>
+
+    <!-- LEFT SIDE: Floating ASCII Portrait -->
+    <g mask="url(#revealMaskLight)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="6s" repeatCount="indefinite"/>
+        <text x="32" y="55" class="ascii-l">
+          <tspan x="32" y="75.00" xml:space="preserve">                           .........                          </tspan>
+          <tspan x="32" y="86.50" xml:space="preserve">                        .''   .  .   ....                    </tspan>
+          <tspan x="32" y="98.00" xml:space="preserve">                      '' .    . ..  ...   ...                </tspan>
+          <tspan x="32" y="109.50" xml:space="preserve">                     ...                    ..                </tspan>
+          <tspan x="32" y="121.00" xml:space="preserve">                       '-+*#%%%#*##*+=-:'                     </tspan>
+          <tspan x="32" y="132.50" xml:space="preserve">                     '%██████████████████@*-                  </tspan>
+          <tspan x="32" y="144.00" xml:space="preserve">                    '███████████████████████=                 </tspan>
+          <tspan x="32" y="155.50" xml:space="preserve">                   .+███████████████████████%'.               </tspan>
+          <tspan x="32" y="167.00" xml:space="preserve">                   -██#=-=*#████████████████%--'              </tspan>
+          <tspan x="32" y="178.50" xml:space="preserve">                   :*-:----:#█████%-:::---@██*--'             </tspan>
+          <tspan x="32" y="190.00" xml:space="preserve">                   .**--:':--%███#-::::--:-+#*--              </tspan>
+          <tspan x="32" y="201.50" xml:space="preserve">                 ---█=#+  -'--██#:*-. -:--#' -.-=-            </tspan>
+          <tspan x="32" y="213.00" xml:space="preserve">                 +@-███+   :█@███%█+  . @*%%#*=@@█:           </tspan>
+          <tspan x="32" y="224.50" xml:space="preserve">                 '%*████%**@█████@█@-:'=█████@%=██.           </tspan>
+          <tspan x="32" y="236.00" xml:space="preserve">                   -█████████████████████████@@@@-            </tspan>
+          <tspan x="32" y="247.50" xml:space="preserve">                '-::██████*-':+:'-=@████████==#=.             </tspan>
+          <tspan x="32" y="259.00" xml:space="preserve">               -#+---+████+=+#@#+-:=██████#:                  </tspan>
+          <tspan x="32" y="270.50" xml:space="preserve">               +█*--  :=*'+██-':███*=██%=-                    </tspan>
+          <tspan x="32" y="282.00" xml:space="preserve">                -+#█-      ::   :--  '.                       </tspan>
+          <tspan x="32" y="293.50" xml:space="preserve">                  -#-'..                                      </tspan>
+          <tspan x="32" y="305.00" xml:space="preserve">               -%%@%@@@%%%*+  --'                             </tspan>
+          <tspan x="32" y="316.50" xml:space="preserve">             :++████████████-'.'.                             </tspan>
+          <tspan x="32" y="328.00" xml:space="preserve">             %█*█████@@████@*#*=%*' '                         </tspan>
+          <tspan x="32" y="339.50" xml:space="preserve">            -█*+█*-%@:%+*██%.%█████#%:                        </tspan>
+          <tspan x="32" y="351.00" xml:space="preserve">             @%+█+-@-*█=-@█#-@██████-'                        </tspan>
+          <tspan x="32" y="362.50" xml:space="preserve">             :=*███%+█@%███*:@██████=                         </tspan>
+          <tspan x="32" y="374.00" xml:space="preserve">               *███████████%-*█████%:                         </tspan>
+          <tspan x="32" y="385.50" xml:space="preserve">               .-=*#%%%%%#+'  .'--'                           </tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- RIGHT SIDE: Typewritten Details -->
+    <g clip-path="url(#lcl0)"><text x="520" y="0"><tspan x="520" y="42" class="head-l">damiano@devos</tspan><tspan class="cc-l"> -------------------------------------------</tspan></text></g>
+    <g clip-path="url(#lcl1)"><text x="520" y="0"><tspan x="520" y="66" class="cc-l">. </tspan><tspan class="key-l">Subject</tspan><tspan class="cc-l">: .......................... </tspan><tspan class="value-l">Damiano Maka</tspan></text></g>
+    <g clip-path="url(#lcl2)"><text x="520" y="0"><tspan x="520" y="88" class="cc-l">. </tspan><tspan class="key-l">Role</tspan><tspan class="cc-l">: ............................. </tspan><tspan class="value-l">Frontend &amp; AI Developer</tspan></text></g>
+    <g clip-path="url(#lcl3)"><text x="520" y="0"><tspan x="520" y="110" class="cc-l">. </tspan><tspan class="key-l">Company</tspan><tspan class="cc-l">: .......................... </tspan><tspan class="value-l">GenomeUp S.r.l. (JuliaOmix SaaS)</tspan></text></g>
+    <g clip-path="url(#lcl4)"><text x="520" y="0"><tspan x="520" y="132" class="cc-l">. </tspan><tspan class="key-l">Origin</tspan><tspan class="cc-l">: ........................... </tspan><tspan class="value-l">Rome, Italy (Hybrid/Remote)</tspan></text></g>
+    <g clip-path="url(#lcl5)"><text x="520" y="0"><tspan x="520" y="154" class="cc-l">. </tspan><tspan class="key-l">Focus</tspan><tspan class="cc-l">: ............................ </tspan><tspan class="value-l">Micro-frontends &amp; AI Automations</tspan></text></g>
+    <g clip-path="url(#lcl6)"><text x="520" y="0"><tspan x="520" y="176" class="cc-l">. </tspan><tspan class="key-l">Education</tspan><tspan class="cc-l">: ......................... </tspan><tspan class="value-l">LabForWeb • Rizzo AI Academy</tspan></text></g>
+    <g clip-path="url(#lcl7)"><text x="520" y="0"><tspan x="520" y="198" class="cc-l">. </tspan></text></g>
+    <g clip-path="url(#lcl8)"><text x="520" y="0"><tspan x="520" y="220" class="cc-l">. </tspan><tspan class="key-l">Core</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">Frontend</tspan><tspan class="cc-l">: ...... </tspan><tspan class="value-l">Angular v17+, TS, RxJS, Signals</tspan></text></g>
+    <g clip-path="url(#lcl9)"><text x="520" y="0"><tspan x="520" y="242" class="cc-l">. </tspan><tspan class="key-l">Core</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">Arch</tspan><tspan class="cc-l">: .......... </tspan><tspan class="value-l">Nx Monorepo, AG Grid, Storybook</tspan></text></g>
+    <g clip-path="url(#lcl10)"><text x="520" y="0"><tspan x="520" y="264" class="cc-l">. </tspan><tspan class="key-l">Core</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">AI/Tools</tspan><tspan class="cc-l">: ...... </tspan><tspan class="value-l">Claude Code, Gemini, MCP, Codex</tspan></text></g>
+    <g clip-path="url(#lcl11)"><text x="520" y="0"><tspan x="520" y="286" class="cc-l">. </tspan><tspan class="key-l">Core</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">DevOps</tspan><tspan class="cc-l">: ........ </tspan><tspan class="value-l">Docker, AWS, Bitbucket CI/CD, Git</tspan></text></g>
+    <g clip-path="url(#lcl12)"><text x="520" y="0"><tspan x="520" y="308" class="cc-l">. </tspan></text></g>
+    <g clip-path="url(#lcl13)"><text x="520" y="0"><tspan x="520" y="330" class="accent-l">- Connect</tspan><tspan class="cc-l"> ---------------------------------------------</tspan></text></g>
+    <g clip-path="url(#lcl14)"><text x="520" y="0"><tspan x="520" y="352" class="cc-l">. </tspan><tspan class="key-l">Grid</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">Mail</tspan><tspan class="cc-l">: ....................... </tspan><tspan class="value-l">makadamiano@gmail.com</tspan></text></g>
+    <g clip-path="url(#lcl15)"><text x="520" y="0"><tspan x="520" y="374" class="cc-l">. </tspan><tspan class="key-l">Grid</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">LinkedIn</tspan><tspan class="cc-l">: ................... </tspan><tspan class="value-l">linkedin.com/in/damiano-maka</tspan></text></g>
+    <g clip-path="url(#lcl16)"><text x="520" y="0"><tspan x="520" y="396" class="cc-l">. </tspan><tspan class="key-l">Grid</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">Github</tspan><tspan class="cc-l">: ..................... </tspan><tspan class="value-l">github.com/damiano-maka</tspan></text></g>
+    <g clip-path="url(#lcl17)"><text x="520" y="0"><tspan x="520" y="418" class="cc-l">. </tspan><tspan class="value-l">Building enterprise micro-frontends &amp; AI tools ⚡</tspan></text></g>
+
+    <!-- Blinking Cursor -->
+    <rect x="522" y="427" width="9" height="16" class="cursor-blink-l" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Animated Scanline -->
+  <rect x="0" y="-70" width="1180" height="70" fill="url(#scanGradLight)" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Border Shimmer -->
+  <rect x="3" y="3" width="1174" height="604" rx="16" fill="none" stroke="url(#borderGradLight)" stroke-width="1.8" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
